@@ -1,0 +1,673 @@
+Dependencies for Project 'Project_MBL_NS', Target 'Target_GDM32': (DO NOT MODIFY !)
+F (..\..\source_ns\mbl_flash.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_flash.o -MD)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+I (..\..\..\config\config_gdm32_ntz.h)(0x67BAE983)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+I (..\..\source_ns\mbl_flash.h)(0x67BAE984)
+I (..\..\source_ns\mbl_qspi_flash.h)(0x67BAE984)
+F (..\..\source_ns\mbl_image.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_image.o -MD)
+I (..\..\..\config\config_gdm32_ntz.h)(0x67BAE983)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+I (..\..\source_ns\mbl_image.h)(0x67BAE984)
+I (..\..\source_ns\mbl_sys.h)(0x67BAE984)
+I (..\..\platform\mbl_region.h)(0x67BAE984)
+F (..\..\source_ns\mbl_ns.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_ns.o -MD)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+I (..\..\platform\mbl_region.h)(0x67BAE984)
+I (..\..\..\config\config_gdm32_ntz.h)(0x67BAE983)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\source_ns\mbl_image.h)(0x67BAE984)
+I (..\..\source_ns\mbl_sys.h)(0x67BAE984)
+I (..\..\source_ns\mbl_uart.h)(0x67BAE985)
+I (..\..\source_ns\mbl_flash.h)(0x67BAE984)
+I (..\..\source_ns\mbl_qspi_flash.h)(0x67BAE984)
+F (..\..\source_ns\mbl_sys.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_sys.o -MD)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+I (..\..\source_ns\mbl_image.h)(0x67BAE984)
+I (..\..\source_ns\mbl_sys.h)(0x67BAE984)
+I (..\..\platform\mbl_region.h)(0x67BAE984)
+I (..\..\..\config\config_gdm32_ntz.h)(0x67BAE983)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\source_ns\mbl_flash.h)(0x67BAE984)
+I (..\..\source_ns\mbl_qspi_flash.h)(0x67BAE984)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\aes.h)(0x67BAE9E1)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\config.h)(0x67BAE9E1)
+I (..\..\..\ROM-EXPORT\platform\rom_pka.h)(0x67BAE9E2)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\rom_config.h)(0x67BAE9E2)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\check_config.h)(0x67BAE9E1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5C40E42A)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\aes_alt.h)(0x67BAE9E1)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\platform.h)(0x67BAE9E2)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\platform_time.h)(0x67BAE9E2)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\md5.h)(0x67BAE9E2)
+I (..\..\..\ROM-EXPORT\mbedtls-2.17.0-rom\include\mbedtls\memory_buffer_alloc.h)(0x67BAE9E2)
+F (..\..\source_ns\mbl_uart.c)(0x67BAE985)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_uart.o -MD)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+F (..\..\source_ns\mbl_api.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_api.o -MD)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+I (..\..\source_ns\mbl_api.h)(0x67BAE984)
+I (..\..\platform\mbl_region.h)(0x67BAE984)
+I (..\..\..\config\config_gdm32_ntz.h)(0x67BAE983)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\source_ns\mbl_sys.h)(0x67BAE984)
+I (..\..\source_ns\mbl_image.h)(0x67BAE984)
+I (..\..\source_ns\mbl_flash.h)(0x67BAE984)
+I (..\..\source_ns\mbl_qspi_flash.h)(0x67BAE984)
+I (..\..\..\ROM-EXPORT\source\rom_api.h)(0x67BAE9E2)
+F (..\..\..\ROM-EXPORT\symbol\rom_symbol_mbedtls_20200709)(0x67BAE9E3)()
+F (..\..\source_ns\mbl_qspi_flash.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_qspi_flash.o -MD)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+I (..\..\source_ns\mbl_qspi_flash.h)(0x67BAE984)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+F (..\..\source_ns\mbl_trace.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_trace.o -MD)
+I (..\..\source_ns\mbl_trace.h)(0x67BAE984)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C40E42A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5C40E42A)
+F (..\..\platform\gdm32\armclang\mbl_startup_gdm32.s)(0x67BAE984)(--cpu=Cortex-M33 --fpu=FPv5-SP -g --pd "__MICROLIB SETA 1"-I.\RTE\_Target_GDM32-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32W51x_DFP\1.0.3\Device\Include--pd "__UVISION_VERSION SETA 527"--pd "_RTE_ SETA 1"--list .\mbl_ns\listings\mbl_startup_gdm32.lst--xref -o .\mbl_ns\objects\mbl_startup_gdm32.o--depend .\mbl_ns\objects\mbl_startup_gdm32.d)
+F (..\..\platform\gdm32\cmsis_core\mbl_system_gdm32.c)(0x67BAE984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/mbl_system_gdm32.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (..\..\..\config\platform_def.h)(0x67BAEB43)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_fmc.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_fmc.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_fwdgt.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_fwdgt.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_gpio.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_gpio.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_icache.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_icache.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_qspi.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_qspi.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_rcu.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_rcu.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_usart.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_usart.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)
+F (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Source\gd32w51x_misc.c)(0x67BAE993)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../source_ns -I ../../platform -I ../../platform/gdm32 -I ../../../config -I ../../../ROM-EXPORT/mbedtls-2.17.0-rom/include -I ../../../ROM-EXPORT/platform -I ../../../ROM-EXPORT/source -I ../../../NSPE/Firmware/CMSIS/GD/GD32W51x/Include -I ../../../NSPE/Firmware/GD32W51x_standard_peripheral/Include-I./RTE/_Target_GDM32-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32W51x_DFP/1.0.3/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DPLATFORM_GDM32-o ./mbl_ns/objects/gd32w51x_misc.o -MD)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_misc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\gd32w51x.h)(0x67BAE992)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm33.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv8.h)(0x626F4ADE)
+I (..\..\..\NSPE\Firmware\CMSIS\GD\GD32W51x\Include\system_gd32w51x.h)(0x67BAE992)
+I (..\..\platform\gdm32\gd32w51x_libopt.h)(0x67BAE984)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_adc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_cau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_crc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dbg.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dci.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_dma.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_efuse.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_exti.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fmc.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_fwdgt.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_gpio.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hau.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_hpdf.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_i2c.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_icache.h)(0x67BAE992)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pkcau.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_pmu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_qspi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_rtc.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sdio.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_spi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_sqpi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_syscfg.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_timer.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_trng.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tsi.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_tzpcu.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_usart.h)(0x67BAE993)
+I (..\..\..\NSPE\Firmware\GD32W51x_standard_peripheral\Include\gd32w51x_wwdgt.h)(0x67BAE993)

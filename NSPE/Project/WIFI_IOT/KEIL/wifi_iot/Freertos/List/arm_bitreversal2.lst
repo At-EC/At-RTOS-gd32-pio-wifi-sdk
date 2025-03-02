@@ -1,0 +1,181 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         #       1                "..\\..\\..\\Firmware\\CMSIS\\D
+SP_Lib_v1.6.0\\source\\arm_bitreversal2.S"
+    1 00000000         #       1                "<built-in>" 1
+    1 00000000         #       1                "..\\..\\..\\Firmware\\CMSIS\\D
+SP_Lib_v1.6.0\\source\\arm_bitreversal2.S" 2
+    1 00000000         ;
+    2 00000000         #       13               "..\\..\\..\\Firmware\\CMSIS\\D
+SP_Lib_v1.6.0\\source\\arm_bitreversal2.S"
+   13 00000000         ;
+   14 00000000         #       71               "..\\..\\..\\Firmware\\CMSIS\\D
+SP_Lib_v1.6.0\\source\\arm_bitreversal2.S"
+   71 00000000                 AREA             ||.text||, CODE, READONLY, ALIG
+N=2
+   72 00000000                 THUMB
+   73 00000000         
+   74 00000000         ;
+   75 00000000         
+   76 00000000         
+   77 00000000         
+   78 00000000         
+   79 00000000         
+   80 00000000         
+   81 00000000                 EXPORT           arm_bitreversal_32
+   82 00000000                 EXPORT           arm_bitreversal_16
+   83 00000000         #       146              "..\\..\\..\\Firmware\\CMSIS\\D
+SP_Lib_v1.6.0\\source\\arm_bitreversal2.S"
+  146 00000000         arm_bitreversal_32
+                               PROC
+  147 00000000 1C4B            ADDS             r3,r1,#1
+  148 00000002 2B01            CMP              r3,#1
+  149 00000004 BF98            IT               LS
+  150 00000006 4770            BXLS             lr
+  151 00000008 E92D 03F0       PUSH             {r4-r9}
+  152 0000000C 1C91            ADDS             r1,r2,#2
+  153 0000000E 089B            LSRS             r3,r3,#2
+  154 00000010         arm_bitreversal_32_0                 ;
+  155 00000010 F8B1 8004       LDRH             r8,[r1,#4]
+  156 00000014 F8B1 9002       LDRH             r9,[r1,#2]
+  157 00000018 880A            LDRH             r2,[r1,#0]
+  158 0000001A F831 CC02       LDRH             r12,[r1,#-2]
+  159 0000001E 4480            ADD              r8,r0,r8
+  160 00000020 4481            ADD              r9,r0,r9
+  161 00000022 4402            ADD              r2,r0,r2
+  162 00000024 4484            ADD              r12,r0,r12
+  163 00000026 F8D9 7000       LDR              r7,[r9,#0]
+  164 0000002A F8D8 6000       LDR              r6,[r8,#0]
+  165 0000002E 6815            LDR              r5,[r2,#0]
+  166 00000030 F8DC 4000       LDR              r4,[r12,#0]
+  167 00000034 F8C9 6000       STR              r6,[r9,#0]
+  168 00000038 F8C8 7000       STR              r7,[r8,#0]
+  169 0000003C F8CC 5000       STR              r5,[r12,#0]
+  170 00000040 6014            STR              r4,[r2,#0]
+  171 00000042 F8D9 7004       LDR              r7,[r9,#4]
+  172 00000046 F8D8 6004       LDR              r6,[r8,#4]
+  173 0000004A 6855            LDR              r5,[r2,#4]
+  174 0000004C F8DC 4004       LDR              r4,[r12,#4]
+  175 00000050 F8C9 6004       STR              r6,[r9,#4]
+  176 00000054 F8C8 7004       STR              r7,[r8,#4]
+  177 00000058 F8CC 5004       STR              r5,[r12,#4]
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+  178 0000005C 6054            STR              r4,[r2,#4]
+  179 0000005E 3108            ADDS             r1,r1,#8
+  180 00000060 1E5B            SUBS             r3,r3,#1
+  181 00000062 D1D5            BNE              arm_bitreversal_32_0
+  182 00000064 E8BD 03F0       POP              {r4-r9}
+  183 00000068 4770            BX               lr
+  184 0000006A                 ENDP
+  185 0000006A         
+  186 0000006A         arm_bitreversal_16
+                               PROC
+  187 0000006A 1C4B            ADDS             r3,r1,#1
+  188 0000006C 2B01            CMP              r3,#1
+  189 0000006E BF98            IT               LS
+  190 00000070 4770            BXLS             lr
+  191 00000072 E92D 03F0       PUSH             {r4-r9}
+  192 00000076 1C91            ADDS             r1,r2,#2
+  193 00000078 089B            LSRS             r3,r3,#2
+  194 0000007A         arm_bitreversal_16_0                 ;
+  195 0000007A F8B1 8004       LDRH             r8,[r1,#4]
+  196 0000007E F8B1 9002       LDRH             r9,[r1,#2]
+  197 00000082 880A            LDRH             r2,[r1,#0]
+  198 00000084 F831 CC02       LDRH             r12,[r1,#-2]
+  199 00000088 EB00 0858       ADD              r8,r0,r8,LSR #1
+  200 0000008C EB00 0959       ADD              r9,r0,r9,LSR #1
+  201 00000090 EB00 0252       ADD              r2,r0,r2,LSR #1
+  202 00000094 EB00 0C5C       ADD              r12,r0,r12,LSR #1
+  203 00000098 F8D9 7000       LDR              r7,[r9,#0]
+  204 0000009C F8D8 6000       LDR              r6,[r8,#0]
+  205 000000A0 6815            LDR              r5,[r2,#0]
+  206 000000A2 F8DC 4000       LDR              r4,[r12,#0]
+  207 000000A6 F8C9 6000       STR              r6,[r9,#0]
+  208 000000AA F8C8 7000       STR              r7,[r8,#0]
+  209 000000AE F8CC 5000       STR              r5,[r12,#0]
+  210 000000B2 6014            STR              r4,[r2,#0]
+  211 000000B4 3108            ADDS             r1,r1,#8
+  212 000000B6 1E5B            SUBS             r3,r3,#1
+  213 000000B8 D1DF            BNE              arm_bitreversal_16_0
+  214 000000BA E8BD 03F0       POP              {r4-r9}
+  215 000000BE 4770            BX               lr
+  216 000000C0                 ENDP
+  217 000000C0         
+  218 000000C0         
+  219 000000C0         
+  220 000000C0                 END
+Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M33 -
+-fpu=FPv5-SP -o.\wifi_iot\freertos\arm_bitreversal2.o -I.\RTE\_Project_At_RTOS 
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Inc
+lude -IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32W51x_DFP\1
+.0.3\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERS
+ION SETA 527" --predefine="_RTE_ SETA 1" --cpreproc_opts=--target=arm-arm-none-
+eabi,-mcpu=cortex-m33,-mfpu=fpv5-sp-d16,-mfloat-abi=hard,-D__UVISION_VERSION=52
+7,-D_RTE_ --list=.\wifi_iot\freertos\list\arm_bitreversal2.lst ..\..\..\Firmwar
+e\CMSIS\DSP_Lib_v1.6.0\source\arm_bitreversal2.S
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+arm_bitreversal_16 0000006A
+
+Symbol: arm_bitreversal_16
+   Definitions
+      At line 186 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\
+arm_bitreversal2.S
+   Uses
+      At line 82 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\a
+rm_bitreversal2.S
+Comment: arm_bitreversal_16 used once
+arm_bitreversal_16_0 0000007A
+
+Symbol: arm_bitreversal_16_0
+   Definitions
+      At line 194 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\
+arm_bitreversal2.S
+   Uses
+      At line 213 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\
+arm_bitreversal2.S
+Comment: arm_bitreversal_16_0 used once
+arm_bitreversal_32 00000000
+
+Symbol: arm_bitreversal_32
+   Definitions
+      At line 146 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\
+arm_bitreversal2.S
+   Uses
+      At line 81 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\a
+rm_bitreversal2.S
+Comment: arm_bitreversal_32 used once
+arm_bitreversal_32_0 00000010
+
+Symbol: arm_bitreversal_32_0
+   Definitions
+      At line 154 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\
+arm_bitreversal2.S
+   Uses
+      At line 181 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\
+arm_bitreversal2.S
+Comment: arm_bitreversal_32_0 used once
+|.text| 00000000
+
+Symbol: |.text|
+   Definitions
+      At line 71 in file ..\\..\\..\\Firmware\\CMSIS\\DSP_Lib_v1.6.0\\source\\a
+rm_bitreversal2.S
+   Uses
+      None
+Comment: |.text| unused
+5 symbols
+339 symbols in table

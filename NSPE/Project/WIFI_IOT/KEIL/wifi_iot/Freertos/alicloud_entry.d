@@ -1,0 +1,47 @@
+./wifi_iot/freertos/alicloud_entry.o: \
+  ..\..\..\WIFI_IOT\cloud\alicloud\alicloud_entry.c \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  ..\..\..\WIFI_IOT\app\app_cfg.h ..\..\..\..\config\platform_def.h \
+  ..\..\..\WIFI_IOT\common\wrapper_os.h ..\..\..\WIFI_IOT\app\app_type.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\..\..\WIFI_IOT\os\wrapper_at_rtos.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\at_rtos.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_type.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\type_def.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_linker.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_struct.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_config.h \
+  ..\..\..\WIFI_IOT\app\os_config.h \
+  ..\..\..\WIFI_IOT\network\lwip-2.1.2\src\include\lwip\arch.h \
+  ..\..\..\WIFI_IOT\network\lwip-2.1.2\port\arch\cc.h \
+  ..\..\..\WIFI_IOT\common\debug_print.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\ctype.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\..\build_version.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_trace.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\postcode.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\static_init.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\alicloud_entry.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\ali_linkkit_sdk_include.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\infra\infra_types.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\infra\infra_config.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\infra\infra_defs.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\infra\infra_types.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\infra\infra_compat.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\infra\infra_defs.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\wrappers\wrappers_defs.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\wrappers\wrappers.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\wrappers\wrappers_defs.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\coap_server\coap_api.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\dev_bind\bind_api.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\dev_model\dev_model_api.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\dev_sign\dev_sign_api.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\mqtt\mqtt_api.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\ota\ota_api.h \
+  ..\..\..\WIFI_IOT\cloud\alicloud\iotkit-embedded-3.2.0\lib_iot_sdk_src\eng\wifi_provision\wifi_provision_api.h

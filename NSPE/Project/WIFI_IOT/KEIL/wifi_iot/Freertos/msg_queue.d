@@ -1,0 +1,40 @@
+./wifi_iot/freertos/msg_queue.o: \
+  ..\..\..\WIFI_IOT\os\At-RTOS\source\msg_queue.c \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\sched_kernel.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\k_arch.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_config.h \
+  ..\..\..\WIFI_IOT\app\os_config.h \
+  ..\..\..\WIFI_IOT\network\lwip-2.1.2\src\include\lwip\arch.h \
+  ..\..\..\WIFI_IOT\network\lwip-2.1.2\port\arch\cc.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  ..\..\..\WIFI_IOT\app\app_cfg.h ..\..\..\..\config\platform_def.h \
+  ..\..\..\WIFI_IOT\app\app_type.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\..\..\WIFI_IOT\common\debug_print.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\ctype.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\..\build_version.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\arch32\arm\cmsis\include\core_cm33.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\arch32\arm\cmsis\include\cmsis_version.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\arch32\arm\cmsis\include\cmsis_compiler.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\arch32\arm\cmsis\include\cmsis_armclang.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\arch32\arm\cmsis\include\mpu_armv8.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\port\k_port.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\type_def.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\arch\k_arch.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\.\clock\k_clock_tick.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_struct.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\type_def.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_linker.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_type.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_config.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_malloc.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\static_init.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\sched_timer.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\k_trace.h \
+  ..\..\..\WIFI_IOT\os\At-RTOS\include\postcode.h

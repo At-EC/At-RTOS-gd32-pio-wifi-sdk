@@ -1,0 +1,24 @@
+--cpu=Cortex-M33
+".\mbl_ns\objects\mbl_flash.o"
+".\mbl_ns\objects\mbl_image.o"
+".\mbl_ns\objects\mbl_ns.o"
+".\mbl_ns\objects\mbl_sys.o"
+".\mbl_ns\objects\mbl_uart.o"
+".\mbl_ns\objects\mbl_api.o"
+"..\..\..\ROM-EXPORT\symbol\rom_symbol_mbedtls_20200709"
+".\mbl_ns\objects\mbl_qspi_flash.o"
+".\mbl_ns\objects\mbl_trace.o"
+".\mbl_ns\objects\mbl_startup_gdm32.o"
+".\mbl_ns\objects\mbl_system_gdm32.o"
+".\mbl_ns\objects\gd32w51x_fmc.o"
+".\mbl_ns\objects\gd32w51x_fwdgt.o"
+".\mbl_ns\objects\gd32w51x_gpio.o"
+".\mbl_ns\objects\gd32w51x_icache.o"
+".\mbl_ns\objects\gd32w51x_qspi.o"
+".\mbl_ns\objects\gd32w51x_rcu.o"
+".\mbl_ns\objects\gd32w51x_usart.o"
+".\mbl_ns\objects\gd32w51x_misc.o"
+--library_type=microlib --strict --scatter "..\..\platform\gdm32\armclang\mbl_gdm32_ns.sct"
+--predefine="-DPLATFORM_GDM32" --keep=mbl_api --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\mbl_ns\Listings\mbl-ns.map" -o .\mbl_ns\Objects\mbl-ns.axf
